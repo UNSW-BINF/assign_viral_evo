@@ -16,7 +16,7 @@ def jukes_cantor(reference_sequence: str, distant_sequence: str) -> float:
     -------
     float
         The Jukes-Cantor corrected genetic distance using Hamming distance.
-        For example 1.109.
+        For example 1.163.
 
     """
     raise NotImplementedError()
@@ -40,7 +40,7 @@ def kimura_two_parameter(reference_sequence: str, distant_sequence: str) -> floa
     -------
     float
         The Kimura corrected genetic distance using Hamming distance.
-        For example 1.128.
+        For example 1.196.
 
     """
     raise NotImplementedError()
