@@ -1,4 +1,4 @@
-# Homework 4: SARS-CoV-2 variants - How fast does the virus evolve?
+# Homework 4: Tracking viral evolution
 
 Viruses are not immune to mutations and evolution.
 During the pandemic, the SARS-CoV-2 virus mutated, evolved, and changed its characteristics, leaving us with various new strains and variants.
@@ -13,6 +13,15 @@ Lastly, we will focus on Slovenia and its variant landscape throughout the pande
 
 Open `homework-4.ipynb` to get started.
 
+## Consent Form for Participation in Automated Grading Study
+
+We are conducting a study on the use of large language models (LLMs) to help grade homework assignments. Your homework will either be graded by an LLM or a human TA, chosen at random. You will not know which method was used. You may request a human review of any section of your graded homework after receiving your grades. Participation is purely voluntary, and opting out will not affect your grade in any way. For additional information, please contact the TAs via e-mail: pavlin.policar@fri.uni-lj.si and martin.spendl@fri.uni-lj.si.
+
+If you do not wish to participate in this study, please uncheck the box below (remove the `x` inside the square brackets):
+
+- [x] I consent to participate in the LLM grading study.
+
+Thank you for your contribution to this research!
 
 ## Submission and Grading
 
@@ -35,11 +44,11 @@ There are three types of exercises/answers within each homework:
 
     will not work and will receive zero points. All answer variables should be set explicitly e.g. `answer_var = 1.6666` in for this simple example. Please ensure there are no syntax errors in your notebook.
 
-We will automatically fetch your solutions at the deadline and these submissions will be graded by default. **If you submit after the deadline -- using your late days -- please notify Pavlin on our Slack channel**, and we will re-evaluate your submission.
+We will automatically fetch your solutions at the deadline and these submissions will be graded by default. **If you submit after the deadline -- using your late days -- please notify Pavlin or Martin via email**, and we will re-evaluate your submission.
 
 ## Environment instructions
 
-You will need Python 3.8 or higher. You will need to install `biopython` for accessing NCBI and `matplotlib` for plotting. You will also need `jupyterlab` to open and run the notebook. You can also use `numpy`, `scipy`, `pandas`, and `seaborn`. You can install everything necessary by running
+You will need Python 3.10 or higher. You will need to install `biopython` for accessing NCBI and `matplotlib` for plotting. You will also need `jupyterlab` to open and run the notebook. You can also use `numpy`, `scipy`, `pandas`, and `seaborn`. You can install everything necessary by running
 ```
 pip install biopython matplotlib jupyterlab
 ```
