@@ -5,7 +5,7 @@ def jukes_cantor(reference_sequence: str, distant_sequence: str) -> float:
 
     Parameters
     ----------
-    referene_sequence: str
+    reference_sequence: str
         A string of nucleotides in a sequence used as a reference
         in an alignment with other (e.g. AGGT-GA)
     distant_sequence: str
@@ -29,7 +29,7 @@ def kimura_two_parameter(reference_sequence: str, distant_sequence: str) -> floa
 
     Parameters
     ----------
-    referene_sequence: str
+    reference_sequence: str
         A string of nucleotides in a sequence used as a reference
         in an alignment with other (e.g. AGGT-GA)
     distant_sequence: str
